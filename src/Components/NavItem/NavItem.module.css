@@ -1,0 +1,14 @@
+.navLi {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  line-height: 32.4px;
+  font-weight: 600;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #292929;
+}

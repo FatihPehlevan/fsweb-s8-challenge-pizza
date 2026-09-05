@@ -1,0 +1,119 @@
+.success {
+  background: #ce2829;
+  min-height: 100vh;
+  font-family: 'Barlow', sans-serif;
+  color: #fff;
+  text-align: center;
+  padding: 0rem 1rem 5rem;
+}
+
+.tagline {
+  font-family: 'Satisfy', cursive;
+  color: #fdc913;
+  font-size: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  font-weight: 300;
+}
+
+.title {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+  font-size: 5rem;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  max-width: 520px;
+  margin: 2rem auto;
+}
+
+.productName {
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.orderInfo {
+  max-width: 200px;
+  margin: 0 auto 2.5rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  line-height: 1.5rem;
+}
+
+.infoRow {
+  font-size: 0.95rem;
+}
+
+.label {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
+}
+
+.value {
+  font-weight: 700;
+  margin-left: 0.35rem;
+}
+
+.summaryCard {
+  max-width: 320px;
+  margin: 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: left;
+}
+
+.summaryTitle {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.summaryRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  font-size: 1.5rem;
+  padding-top: 3rem;
+}
+
+.empty a {
+  color: #fdc913;
+  text-decoration: none;
+  font-weight: 600;
+  font-style: italic;
+}
+
+@media (max-width: 576px) {
+  .divider {
+    max-width: 70%;
+    margin: 1rem auto;
+  }
+
+  .title {
+    font-size: 4rem;
+  }
+
+  .summaryCard {
+    max-width: 70%;
+  }
+
+  .tagline {
+    padding-top: 1rem;
+  }
+}

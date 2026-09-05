@@ -1,0 +1,42 @@
+.card {
+  background-color: white;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+  padding: 1rem 1rem;
+}
+
+.card img {
+  width: 85%;
+}
+
+.cardDetails {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 1rem;
+  font-family: 'Barlow', sans-serif;
+  row-gap: 1rem;
+}
+
+.cardDetails h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.cardNumbers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardNumbers p {
+  font-family: 'Barlow', sans-serif;
+  color: #292929;
+  font-size: 1.25rem;
+}
+
+.cardNumbers span {
+  font-weight: bold;
+}

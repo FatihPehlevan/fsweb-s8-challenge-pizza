@@ -1,0 +1,162 @@
+.promos {
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  gap: 1rem;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.promos img {
+  border-radius: 1rem;
+  max-width: 100%;
+  display: block;
+}
+
+.promosLeft {
+  position: relative;
+  flex: 1;
+  color: white;
+}
+
+.promosLeftText {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  inset: 0;
+  row-gap: 0.75rem;
+  padding-left: 2.5rem;
+  padding-top: 2.5rem;
+}
+
+.promosLeftText h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: 'Quattrocento', serif;
+  line-height: 4rem;
+}
+
+.promosLeftText p {
+  font-size: 1.125rem;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+}
+
+.siparisVerButton {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-family: 'Barlow', sans-serif;
+  border-radius: 50px;
+  background-color: white;
+  color: #ce2829;
+  align-self: flex-start;
+  padding: 1rem 2rem;
+  font-weight: 600;
+  margin-top: 0.75rem;
+}
+
+.promosRight {
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.promosRightTopText {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  inset: 0;
+  row-gap: 0.75rem;
+  padding-left: 2rem;
+  padding-top: 1.5rem;
+}
+
+.promosRightTopText h3 {
+  color: white;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.75rem;
+  letter-spacing: 1px;
+}
+
+.promosRightBottomText {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  inset: 0;
+  row-gap: 0.75rem;
+  padding-left: 2rem;
+  padding-top: 1.5rem;
+}
+
+.bottom {
+  position: relative;
+}
+
+.promosRightBottomText h3 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.75rem;
+  letter-spacing: 1px;
+  color: #292929;
+}
+
+.promosRightBottomText span {
+  color: #ce2829;
+}
+
+@media (max-width: 576px) {
+  .promosRight {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .promos {
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 80%;
+    height: 100%;
+  }
+
+  .promosLeftText {
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .promosLeftText h2 {
+    font-size: 3.5rem;
+  }
+
+  .promosLeftText p {
+    font-size: 1rem;
+  }
+
+  .siparisVerButton {
+    padding: 0.5rem 1.5rem;
+    font-size: 0.75rem;
+  }
+
+  .promosRightTopText .promosRightBottomText {
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .promosRightTopText h3 {
+    font-size: 1.25rem;
+  }
+
+  .promosRightBottomText h3 {
+    font-size: 1.25rem;
+  }
+
+  .promosRightBottomText .promosRightTopText .siparisVerButton {
+    margin-top: 0;
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
+  }
+}

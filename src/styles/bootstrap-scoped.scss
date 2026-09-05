@@ -1,0 +1,9 @@
+.bs-scope {
+  @import 'bootstrap/scss/functions';
+  @import 'bootstrap/scss/variables';
+  @import 'bootstrap/scss/variables-dark';
+
+  $theme-colors: map-merge($theme-colors, ());
+
+  @import 'bootstrap/scss/bootstrap';
+}
